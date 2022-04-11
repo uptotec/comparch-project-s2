@@ -15,7 +15,7 @@ process(CLK, PCin)
 begin
 
 if rising_edge(CLK) then
-PCout <= PCin;
+        PCout <= PCin;
 end if;
 end process;
 end rtl;

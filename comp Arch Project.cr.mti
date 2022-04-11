@@ -1,0 +1,116 @@
+{F:/comparch project s2/SignExtend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/SignExtend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SignExtend
+-- Compiling architecture rtl of SignExtend
+
+} {} {}} {F:/comparch project s2/MIPS.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/MIPS.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity MIPS
+-- Compiling architecture rtl of MIPS
+
+} {} {}} {F:/comparch project s2/PC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/PC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC
+-- Compiling architecture rtl of PC
+
+} {} {}} {F:/comparch project s2/ShiftLeft2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/ShiftLeft2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ShiftLeft2
+-- Compiling architecture rtl of ShiftLeft2
+
+} {} {}} {F:/comparch project s2/ALUControl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/ALUControl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUControl
+-- Compiling architecture rtl of ALUControl
+
+} {} {}} {F:/comparch project s2/DataMemory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/DataMemory.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DataMemory
+-- Compiling architecture rtl of DataMemory
+
+} {} {}} {F:/comparch project s2/MUXRegDst.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/MUXRegDst.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUXRegDst
+-- Compiling architecture rtl of MUXRegDst
+
+} {} {}} {F:/comparch project s2/MUX2to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/MUX2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MUX2to1
+-- Compiling architecture rtl of MUX2to1
+
+} {} {}} {F:/comparch project s2/ControlUnit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/ControlUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControlUnit
+-- Compiling architecture rtl of ControlUnit
+
+} {} {}} {F:/comparch project s2/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture rtl of ALU
+
+} {} {}} {F:/comparch project s2/MUX4to1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/MUX4to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX4to1
+-- Compiling architecture rtl of MUX4to1
+
+} {} {}} {F:/comparch project s2/RegisterFile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/RegisterFile.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RegisterFile
+-- Compiling architecture rtl of RegisterFile
+
+} {} {}} {F:/comparch project s2/Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/comparch project s2/Adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Adder
+-- Compiling architecture rtl of Adder
+
+} {} {}}
