@@ -1,0 +1,582 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/test2
+Eadder
+Z0 w1649704190
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dF:/comparch project s2
+Z6 8F:/comparch project s2/Adder.vhd
+Z7 FF:/comparch project s2/Adder.vhd
+l0
+L6
+Vo;cgAnY4RXfTCeJQdTPcQ3
+!s100 Bmm1KYQOYVh105@DTRQkM2
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1649705087
+!i10b 1
+Z10 !s108 1649705087.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/Adder.vhd|
+Z12 !s107 F:/comparch project s2/Adder.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 o;cgAnY4RXfTCeJQdTPcQ3
+l14
+L12
+VU6IeW<ZhH:j7B;Gh>_0bj3
+!s100 o`AIzmS:JYbV@EnJ4QjiC2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ealu
+Z15 w1649704235
+R1
+R2
+R3
+R4
+R5
+Z16 8F:/comparch project s2/ALU.vhd
+Z17 FF:/comparch project s2/ALU.vhd
+l0
+L6
+VYgWdL1@ACDzWD3I1H`:ll2
+!s100 >1NFCkfeV2=jAkhh2M=J50
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/ALU.vhd|
+Z19 !s107 F:/comparch project s2/ALU.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 YgWdL1@ACDzWD3I1H`:ll2
+l16
+L14
+V:IYR87Xjg6I8ed=Ra[6EE3
+!s100 ;7;<hnC[QND_[L28:VN<g3
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Ealucontrol
+Z20 w1649704284
+R3
+R4
+R5
+Z21 8F:/comparch project s2/ALUControl.vhd
+Z22 FF:/comparch project s2/ALUControl.vhd
+l0
+L4
+Vl6?Nd^i4QRCjLl:<<;3SL3
+!s100 i>mWi8FS^kTKUZkf6H=bn1
+R8
+32
+Z23 !s110 1649705086
+!i10b 1
+Z24 !s108 1649705085.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/ALUControl.vhd|
+Z26 !s107 F:/comparch project s2/ALUControl.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+DEx4 work 10 alucontrol 0 22 l6?Nd^i4QRCjLl:<<;3SL3
+l12
+L10
+VbD@0`9i]4mR9XkknVd]IS3
+!s100 on3XIzebz]LMaL8]F^C2n0
+R8
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Econtrolunit
+Z27 w1649704333
+R3
+R4
+R5
+Z28 8F:/comparch project s2/ControlUnit.vhd
+Z29 FF:/comparch project s2/ControlUnit.vhd
+l0
+L4
+VMj0kEAED_o7XjogYUm[753
+!s100 AW9G<H6U_L>;[N_1X]SKf0
+R8
+32
+R23
+!i10b 1
+Z30 !s108 1649705086.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/ControlUnit.vhd|
+Z32 !s107 F:/comparch project s2/ControlUnit.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+DEx4 work 11 controlunit 0 22 Mj0kEAED_o7XjogYUm[753
+l18
+L16
+Vfi7?8g_Q70hO;cVJV?7eG3
+!s100 5R7gG>DYEIXOK<WaM`iC`0
+R8
+32
+R23
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
+Edatamemory
+Z33 w1649704390
+R1
+R2
+R3
+R4
+R5
+Z34 8F:/comparch project s2/DataMemory.vhd
+Z35 FF:/comparch project s2/DataMemory.vhd
+l0
+L6
+VWXk1_dzfEjka`MfSB1;T=3
+!s100 _m?Q[k;RYP`XXmhn4QnQZ0
+R8
+32
+R23
+!i10b 1
+R30
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/DataMemory.vhd|
+Z37 !s107 F:/comparch project s2/DataMemory.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 10 datamemory 0 22 WXk1_dzfEjka`MfSB1;T=3
+l19
+L14
+VBg1HZ3HPJh7;LGolS2L9N3
+!s100 C2^lz:c@]UUG<4MTe[LNL3
+R8
+32
+R23
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R13
+R14
+Einstructionmemory
+Z38 w1649704443
+R1
+R2
+R3
+R4
+R5
+Z39 8F:/comparch project s2/InstructionMemory.vhd
+Z40 FF:/comparch project s2/InstructionMemory.vhd
+l0
+L6
+VViM?`;]l^IPLl^eM3;Q5M1
+!s100 eZYOjQX2HaGLELC6@gb^j1
+R8
+32
+R23
+!i10b 1
+R30
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/InstructionMemory.vhd|
+Z42 !s107 F:/comparch project s2/InstructionMemory.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 17 instructionmemory 0 22 ViM?`;]l^IPLl^eM3;Q5M1
+l16
+L11
+VWe5R8>bMoKV<_FF>B>L=[0
+!s100 nFb6[I5j`f?I5WKc:RGk_1
+R8
+32
+R23
+!i10b 1
+R30
+R41
+R42
+!i113 1
+R13
+R14
+Emux2to1
+Z43 w1649704500
+R1
+R2
+R3
+R4
+R5
+Z44 8F:/comparch project s2/MUX2to1.vhd
+Z45 FF:/comparch project s2/MUX2to1.vhd
+l0
+L6
+V00>`?4LT==^HfDjThF4:z1
+!s100 ]@4Sh[JaZ>UTNGSN[8_XA0
+R8
+32
+R23
+!i10b 1
+R30
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/MUX2to1.vhd|
+Z47 !s107 F:/comparch project s2/MUX2to1.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 7 mux2to1 0 22 00>`?4LT==^HfDjThF4:z1
+l15
+L13
+V5Mjf7@hDb_E1Q5>zL7>eN1
+!s100 0zKkLGbKb1Gm[GGd69VE31
+R8
+32
+R23
+!i10b 1
+R30
+R46
+R47
+!i113 1
+R13
+R14
+Emux4to1
+Z48 w1649705302
+R3
+R4
+R5
+Z49 8F:\comparch project s2\MUX4to1.vhd
+Z50 FF:\comparch project s2\MUX4to1.vhd
+l0
+L4
+VKg=nGk[GI68@z7InU5[Ec2
+!s100 177OL<jfN84Vk`ZINh3U]0
+R8
+32
+Z51 !s110 1649705305
+!i10b 1
+Z52 !s108 1649705305.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\comparch project s2\MUX4to1.vhd|
+Z54 !s107 F:\comparch project s2\MUX4to1.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+DEx4 work 7 mux4to1 0 22 Kg=nGk[GI68@z7InU5[Ec2
+l27
+L13
+VEAVC:h<EN4@`oJBh1FgPU3
+!s100 4Z_;FZ_L]Hg`_AC=iX;7f3
+R8
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R13
+R14
+Emuxregdst
+Z55 w1649704690
+R3
+R4
+R5
+Z56 8F:/comparch project s2/MUXRegDst.vhd
+Z57 FF:/comparch project s2/MUXRegDst.vhd
+l0
+L4
+VQmmXBUd3JKR>`jQKg2gbA3
+!s100 aEXDGCG]jlcVKWiIX:LbG0
+R8
+32
+R23
+!i10b 1
+R30
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/MUXRegDst.vhd|
+Z59 !s107 F:/comparch project s2/MUXRegDst.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+DEx4 work 9 muxregdst 0 22 QmmXBUd3JKR>`jQKg2gbA3
+l13
+L11
+VULoTnnNLjWB^ke@MmLK5S1
+!s100 F3CLj^Lj0GI2hzDTU];<O3
+R8
+32
+R23
+!i10b 1
+R30
+R58
+R59
+!i113 1
+R13
+R14
+Epc
+Z60 w1649704733
+R3
+R4
+R5
+Z61 8F:/comparch project s2/PC.vhd
+Z62 FF:/comparch project s2/PC.vhd
+l0
+L4
+VWl[;`coe7:=:508WIgZ^91
+!s100 ;Xc4An[cl02dbh[QV=ni[0
+R8
+32
+R23
+!i10b 1
+R30
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/PC.vhd|
+Z64 !s107 F:/comparch project s2/PC.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+DEx4 work 2 pc 0 22 Wl[;`coe7:=:508WIgZ^91
+l12
+L10
+VbEeVVK<n1WSQL:4WEeDf[2
+!s100 LBnSe593=9TQeBSXQ:Sd40
+R8
+32
+R23
+!i10b 1
+R30
+R63
+R64
+!i113 1
+R13
+R14
+Eregisterfile
+Z65 w1649704774
+R1
+R2
+R3
+R4
+R5
+Z66 8F:/comparch project s2/RegisterFile.vhd
+Z67 FF:/comparch project s2/RegisterFile.vhd
+l0
+L6
+VLJ>E6Uo<I@C`9g2h@HDZ@0
+!s100 mK4DFN[WCzJ@D_OG5`h0>2
+R8
+32
+R23
+!i10b 1
+R30
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/RegisterFile.vhd|
+Z69 !s107 F:/comparch project s2/RegisterFile.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 12 registerfile 0 22 LJ>E6Uo<I@C`9g2h@HDZ@0
+l22
+L16
+VTZzd82zYIz=L988<i@jnT1
+!s100 E^>kV`OkbA[7`0f1`^bR91
+R8
+32
+R23
+!i10b 1
+R30
+R68
+R69
+!i113 1
+R13
+R14
+Eshiftleft2
+Z70 w1649704818
+R3
+R4
+R5
+Z71 8F:/comparch project s2/ShiftLeft2.vhd
+Z72 FF:/comparch project s2/ShiftLeft2.vhd
+l0
+L4
+V42UKSGl=4Pc_]^S_a5CST0
+!s100 em;Yo^dLm64Ka1ILAbIA[3
+R8
+32
+R23
+!i10b 1
+R30
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/ShiftLeft2.vhd|
+Z74 !s107 F:/comparch project s2/ShiftLeft2.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+DEx4 work 10 shiftleft2 0 22 42UKSGl=4Pc_]^S_a5CST0
+l11
+L9
+VN?LFOJfLK3AOh5WdA8VT;2
+!s100 QGT9Pe6A`7a?Q7L=;6mzJ3
+R8
+32
+R23
+!i10b 1
+R30
+R73
+R74
+!i113 1
+R13
+R14
+Esignextend
+Z75 w1649704858
+R3
+R4
+R5
+Z76 8F:/comparch project s2/SignExtend.vhd
+Z77 FF:/comparch project s2/SignExtend.vhd
+l0
+L4
+V^7olTHjEf6A9i<P]n4?R10
+!s100 2i1;kb1GOQGk[Ue:e59]Z0
+R8
+32
+R23
+!i10b 1
+R30
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/SignExtend.vhd|
+Z79 !s107 F:/comparch project s2/SignExtend.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+DEx4 work 10 signextend 0 22 ^7olTHjEf6A9i<P]n4?R10
+l11
+L9
+VX;F4mTbL0W:2UNEX`MK9F2
+!s100 =UH8U4MGD?l_nI=7c3mnM2
+R8
+32
+R23
+!i10b 1
+R30
+R78
+R79
+!i113 1
+R13
+R14
+Esinglecycle
+Z80 w1649705576
+R2
+R3
+R4
+R5
+Z81 8F:\comparch project s2\SingleCycle.vhd
+Z82 FF:\comparch project s2\SingleCycle.vhd
+l0
+L5
+VjjTQZ^7GPMS6NYV6hO5S[0
+!s100 ci<8I:NnBe8SIM4V;1A5`0
+R8
+32
+Z83 !s110 1649705584
+!i10b 1
+Z84 !s108 1649705584.000000
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\comparch project s2\SingleCycle.vhd|
+Z86 !s107 F:\comparch project s2\SingleCycle.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R3
+R4
+DEx4 work 11 singlecycle 0 22 jjTQZ^7GPMS6NYV6hO5S[0
+l151
+L9
+VGNVEGLl<B8dG6^O6>nI=Y1
+!s100 FP0fS=8`7aDZ:IX4T[mKF0
+R8
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 1
+R13
+R14
