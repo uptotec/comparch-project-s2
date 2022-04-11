@@ -2,11 +2,11 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 
-entity SingleCycle is
+entity MIPS is
     Port ( CLKmain : in  STD_LOGIC);
-end SingleCycle;
+end MIPS;
 
-architecture rtl of SingleCycle is
+architecture rtl of MIPS is
 
 COMPONENT ALUControl
 	PORT(
