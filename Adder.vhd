@@ -13,6 +13,6 @@ architecture rtl of Adder is
 
 begin
 
-c <= (a+b);
+c <= a + b;
 
 end rtl;

@@ -7,19 +7,15 @@ entity SignExtend is
 end SignExtend;
 
 architecture rtl of SignExtend is
-
 begin
-
-process(a)
-begin
-
-if a(15)='0' then
-b(31 downto 16) <="0000000000000000";
-b(15 downto 0) <=a;
-else
-b(31 downto 16) <="1111111111111111";
-b(15 downto 0) <=a;
-
-end if;
-end process;
+    process(a)
+    begin
+        if a(15)='0' then
+            b(31 downto 16) <="0000000000000000";
+            b(15 downto 0) <=a;
+        else
+            b(31 downto 16) <="1111111111111111";
+            b(15 downto 0) <=a;
+        end if;
+    end process;
 end rtl;

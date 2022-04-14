@@ -3,14 +3,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity MUX2to1 is
+entity MUX2_1_32bit is
     Port ( a : in  STD_LOGIC_VECTOR (31 downto 0);
            b : in  STD_LOGIC_VECTOR (31 downto 0);
            sel : in  STD_LOGIC;
            output : out  STD_LOGIC_VECTOR (31 downto 0));
-end MUX2to1;
+end MUX2_1_32bit;
 
-architecture rtl of MUX2to1 is
+architecture rtl of MUX2_1_32bit is
 
 begin
 

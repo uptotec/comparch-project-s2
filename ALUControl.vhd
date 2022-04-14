@@ -8,21 +8,18 @@ entity ALUControl is
 end ALUControl;
 
 architecture rtl of ALUControl is
-
 begin
-process(Func,ALUop)
-begin
-
-if ALUop = "00" then ALUcon <= "0010";
-elsif ALUop = "01" then ALUcon <= "0110";
-elsif ALUop = "10" then
-if Func = "100000" then ALUcon <= "0010";
-elsif Func = "100010" then ALUcon <= "0110";
-elsif Func = "100100" then ALUcon <= "0000";
-elsif Func = "100101" then ALUcon <= "0001";
-elsif Func = "101010" then ALUcon <= "0111";
-end if;
- 
-end if;
-end process;
+    process(Func,ALUop)
+    begin
+        if ALUop = "00" then ALUcon <= "0010";
+            elsif ALUop = "01" then ALUcon <= "0110";
+            elsif ALUop = "10" then
+                if Func = "100000" then ALUcon <= "0010";
+                elsif Func = "100010" then ALUcon <= "0110";
+                elsif Func = "100100" then ALUcon <= "0000";
+                elsif Func = "100101" then ALUcon <= "0001";
+                elsif Func = "101010" then ALUcon <= "0111";
+            end if;
+        end if;
+    end process;
 end rtl;

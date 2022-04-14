@@ -44,6 +44,7 @@ COMPONENT ControlUnit
 		MemRead : OUT std_logic;
 		MemWrite : OUT std_logic;
 		Branch : OUT std_logic;
+		Jump : OUT std_logic;
 		ALUop : OUT std_logic_vector(1 downto 0)
 		);
 	END COMPONENT;
@@ -65,7 +66,7 @@ COMPONENT InstructionMemory
 		);
 	END COMPONENT;
 	
-COMPONENT MUX2to1
+COMPONENT MUX2_1_32bit
 	PORT(
 		a : IN std_logic_vector(31 downto 0);
 		b : IN std_logic_vector(31 downto 0);
@@ -74,7 +75,7 @@ COMPONENT MUX2to1
 		);
 	END COMPONENT;
 	
-COMPONENT MUXRegDst
+COMPONENT MUX2_1_5bit
 	PORT(
 		a : IN std_logic_vector(4 downto 0);
 		b : IN std_logic_vector(4 downto 0);
@@ -135,6 +136,7 @@ COMPONENT SignExtend
 	
 	signal regDstControlSig: std_logic;
 	signal branchControlSig: std_logic;
+	signal jumpControlSig: std_logic;
 	signal memReadControlSig: std_logic;
 	signal memToRegControlSig: std_logic;
 	signal ALUopControl: std_logic_vector (1 downto 0);
@@ -176,10 +178,11 @@ begin
 		MemRead => memReadControlSig,
 		MemWrite => memWriteControlSig,
 		Branch => branchControlSig,
+		Jump => jumpControlSig,
 		ALUop => ALUopControl
 	);
 	
-	Inst_MUXRegDst: MUXRegDst PORT MAP(
+	Inst_MUXRegDst: MUX2_1_5bit PORT MAP(
 		a => inputInstruction (20 downto 16),
 		b => inputInstruction (15 downto 11),
 		sel => regDstControlSig,
@@ -218,7 +221,7 @@ begin
 		ALUcon => ALUselect
 	);
 	
-	ALUMUX: MUX2to1 PORT MAP(
+	ALUMUX: MUX2_1_32bit PORT MAP(
 		a => readData2,
 		b => sign_extend,
 		sel => ALUSrcControlSig,
@@ -233,9 +236,9 @@ begin
 		Zero => ALUzeroFlag
 	);
 	
-	PCMUXcontrol <= (branchControlSig AND ALUzeroFlag);
+	PCMUXcontrol <= ((branchControlSig AND ALUzeroFlag) OR jumpControlSig);
 	
-	PCMUX: MUX2to1 PORT MAP(
+	PCMUX: MUX2_1_32bit PORT MAP(
 		a => AdderOut,
 		b => ALUoutputToPCMUX,
 		sel => PCMUXcontrol,
@@ -250,7 +253,7 @@ begin
 		Rdata => dataMemoryOut
 	);
 	
-	MemoryMUX: MUX2to1 PORT MAP(
+	MemoryMUX: MUX2_1_32bit PORT MAP(
 		a => ALUoutput,
 		b => dataMemoryOut,
 		sel => memToRegControlSig,

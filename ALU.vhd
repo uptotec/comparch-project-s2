@@ -12,38 +12,33 @@ entity ALU is
 end ALU;
 
 architecture rtl of ALU is
-
 begin
+    process(A, B, ALUControl)
+    begin
+        if (ALUControl = "0000") then
+        Output <= A AND B;
+        elsif (ALUControl = "0001") then
+        Output <= A OR B;
+        elsif (ALUControl = "0010") then
+        Output <= A + B;
+        elsif (ALUControl = "0110") then
+        Output <= A - B;
+        elsif (ALUControl = "0111") then
+        if (A < B) then
+        Output <= X"00000001";
+        else
+        Output <= X"00000000";
+        end if;
+        elsif (ALUControl = "1100") then
+        Output <= A NOR B;
+        end if;
 
-process(A, B, ALUControl)
-
-begin
-
-if (ALUControl = "0000") then
-Output <= A AND B;
-elsif (ALUControl = "0001") then
-Output <= A OR B;
-elsif (ALUControl = "0010") then
-Output <= A + B;
-elsif (ALUControl = "0110") then
-Output <= A - B;
-elsif (ALUControl = "0111") then
-if (A < B) then
-Output <= "00000000000000000000000000000001";
-else
-Output <= "00000000000000000000000000000000";
-end if;
-elsif (ALUControl = "1100") then
-Output <= A NOR B;
-end if;
-
-if (A=B) then
-Zero <= '1';
-else
-Zero <= '0';
-end if;
-
-end process;
+        if (A=B) then
+        Zero <= '1';
+        else
+        Zero <= '0';
+        end if;
+    end process;
 
 end rtl;
 
