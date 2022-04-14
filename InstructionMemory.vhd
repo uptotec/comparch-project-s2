@@ -10,51 +10,38 @@ end InstructionMemory;
 
 architecture rtl of InstructionMemory is
 
-type A is array(0 to 31) of STD_LOGIC_VECTOR (31 downto 0);
+type A is array(0 to 63) of STD_LOGIC_VECTOR (7 downto 0);
 signal mem: A;
 
 begin
 
-mem(0) <= "00000000001000100001100000100000";
--- mem(1) <= "";
--- mem(2) <= "";
--- mem(3) <= "";
+-- load first location in data memory to register 1
+mem(0) <= "10001100";
+mem(1) <= "00000001";
+mem(2) <= "00000000";
+mem(3) <= "00000000";
 
--- mem(4) <= "00000000";
--- mem(5) <= "00100010";
--- mem(6) <= "00011000";
--- mem(7) <= "00100000";
+-- load second location in data memory to register 2
+mem(4) <= "10001100";
+mem(5) <= "00000010";
+mem(6) <= "00000000";
+mem(7) <= "00000100";
 
--- mem(8) <= "00000000";
--- mem(9) <= "00100010";
--- mem(10) <= "00011000";
--- mem(11) <= "00100000";
+-- add register 1 and 2 in register 3
+mem(8) <= "00000000";
+mem(9) <= "00100010";
+mem(10) <= "00011000";
+mem(11) <= "00100000";
 
--- mem(12) <= "00000000";
--- mem(13) <= "00100010";
--- mem(14) <= "00011000";
--- mem(15) <= "00100000";
+--store register 3 in location 3 in data memory
+mem(12) <= "10101100";
+mem(13) <= "00000011";
+mem(14) <= "00000000";
+mem(15) <= "00001001";
 
--- mem(16) <= "00000000";
--- mem(17) <= "00100010";
--- mem(18) <= "00011000";
--- mem(19) <= "00100000";
-
--- mem(20) <= "00000000";
--- mem(21) <= "00100010";
--- mem(22) <= "00011000";
--- mem(23) <= "00100000";
-
--- mem(24) <= "00000000";
--- mem(25) <= "00100010";
--- mem(26) <= "00011000";
--- mem(27) <= "00100000";
-
--- mem(28) <= "00000000";
--- mem(29) <= "00100010";
--- mem(30) <= "00011000";
--- mem(31) <= "00100000";
-
-instruct(31 downto 0) <= mem(conv_integer(PC));
+instruct(31 downto 24) <= mem(conv_integer(PC));
+instruct(23 downto 16) <= mem(conv_integer(PC)+1);
+instruct(15 downto 8) <= mem(conv_integer(PC)+2);
+instruct(7 downto 0) <= mem(conv_integer(PC)+3);
 
 end rtl;

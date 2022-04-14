@@ -23,9 +23,9 @@ Vo;cgAnY4RXfTCeJQdTPcQ3
 !s100 Bmm1KYQOYVh105@DTRQkM2
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1649960418
+Z9 !s110 1649972001
 !i10b 1
-Z10 !s108 1649960418.000000
+Z10 !s108 1649972001.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/Adder.vhd|
 Z12 !s107 F:/comparch project s2/Adder.vhd|
 !i113 1
@@ -52,7 +52,7 @@ R12
 R13
 R14
 Ealu
-Z15 w1649950725
+Z15 w1649967157
 R2
 R3
 R4
@@ -173,25 +173,25 @@ R29
 R13
 R14
 Edatamemory
-Z30 w1649959388
+Z30 w1649969708
 R2
 R3
 R4
 R5
 R0
-Z31 8F:/comparch project s2/DataMemory.vhd
-Z32 FF:/comparch project s2/DataMemory.vhd
+Z31 8F:\comparch project s2\DataMemory.vhd
+Z32 FF:\comparch project s2\DataMemory.vhd
 l0
 L6
 VWXk1_dzfEjka`MfSB1;T=3
 !s100 _m?Q[k;RYP`XXmhn4QnQZ0
 R8
 32
-Z33 !s110 1649960419
+R9
 !i10b 1
 R10
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/DataMemory.vhd|
-Z35 !s107 F:/comparch project s2/DataMemory.vhd|
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\comparch project s2\DataMemory.vhd|
+Z34 !s107 F:\comparch project s2\DataMemory.vhd|
 !i113 1
 R13
 R14
@@ -201,40 +201,40 @@ R3
 R4
 R5
 DEx4 work 10 datamemory 0 22 WXk1_dzfEjka`MfSB1;T=3
-l19
+l18
 L14
-Ve:YCH`8L9U8ObH:dkn`kI2
-!s100 ^DMR>LfMHD[IL?lLkn`Qa3
+V[Z_^?j@FhEB:Kl`P8L><@3
+!s100 [5_Ckajd`XcX`@TID0Rgc3
 R8
 32
-R33
+R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Einstructionmemory
-Z36 w1649959728
+Z35 w1649971989
 R2
 R3
 R4
 R5
 R0
-Z37 8F:\comparch project s2\InstructionMemory.vhd
-Z38 FF:\comparch project s2\InstructionMemory.vhd
+Z36 8F:\comparch project s2\InstructionMemory.vhd
+Z37 FF:\comparch project s2\InstructionMemory.vhd
 l0
 L6
 VViM?`;]l^IPLl^eM3;Q5M1
 !s100 eZYOjQX2HaGLELC6@gb^j1
 R8
 32
-R33
+R9
 !i10b 1
-Z39 !s108 1649960419.000000
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\comparch project s2\InstructionMemory.vhd|
-Z41 !s107 F:\comparch project s2\InstructionMemory.vhd|
+R10
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\comparch project s2\InstructionMemory.vhd|
+Z39 !s107 F:\comparch project s2\InstructionMemory.vhd|
 !i113 1
 R13
 R14
@@ -246,37 +246,37 @@ R5
 DEx4 work 17 instructionmemory 0 22 ViM?`;]l^IPLl^eM3;Q5M1
 l16
 L11
-V2_k>1@^2[7?XRg=8SK[Yh1
-!s100 A1]m>ljbEX7eRFZWI7<BE1
+V<9@KU;4gkUgfIW<=SV<A]1
+!s100 1Jz6]kIN:DG@ebbd<TFU51
 R8
 32
-R33
+R9
 !i10b 1
+R10
+R38
 R39
-R40
-R41
 !i113 1
 R13
 R14
 Emips
-Z42 w1649960408
+Z40 w1649960408
 R3
 R4
 R5
 R0
-Z43 8F:/comparch project s2/MIPS.vhd
-Z44 FF:/comparch project s2/MIPS.vhd
+Z41 8F:\comparch project s2\MIPS.vhd
+Z42 FF:\comparch project s2\MIPS.vhd
 l0
 L5
 V@CT4OM1T14S9CnEX8VBn31
 !s100 J=F>B4WTff4MjI0_37_Ch2
 R8
 32
-R33
+R9
 !i10b 1
-R39
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/MIPS.vhd|
-Z46 !s107 F:/comparch project s2/MIPS.vhd|
+R10
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\comparch project s2\MIPS.vhd|
+Z44 !s107 F:\comparch project s2\MIPS.vhd|
 !i113 1
 R13
 R14
@@ -291,32 +291,32 @@ V@k<KH4Z4T>d9?8Eb:66Dc2
 !s100 TK=eRBW6XA3FgZ308mDoi2
 R8
 32
-R33
+R9
 !i10b 1
-R39
-R45
-R46
+R10
+R43
+R44
 !i113 1
 R13
 R14
 Emux2_1_32bit
-Z47 w1649960222
+Z45 w1649960222
 R2
 R3
 R4
 R5
 R0
-Z48 8F:\comparch project s2\MUX2_1_32bit.vhd
-Z49 FF:\comparch project s2\MUX2_1_32bit.vhd
+Z46 8F:\comparch project s2\MUX2_1_32bit.vhd
+Z47 FF:\comparch project s2\MUX2_1_32bit.vhd
 l0
 L6
 Vg;^g3KgEiJcS``j?OT3UB3
 !s100 5G8bXRa>;jzleBG3bbFTk1
 R8
 32
-R33
+Z48 !s110 1649972002
 !i10b 1
-R39
+Z49 !s108 1649972002.000000
 Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\comparch project s2\MUX2_1_32bit.vhd|
 Z51 !s107 F:\comparch project s2\MUX2_1_32bit.vhd|
 !i113 1
@@ -334,9 +334,9 @@ VBi7c5J;RzKS0;znK;ib`?2
 !s100 =Gk8k=VQzaNUI];g:505d3
 R8
 32
-R33
+R48
 !i10b 1
-R39
+R49
 R50
 R51
 !i113 1
@@ -355,9 +355,9 @@ VQ8z[2X@h]5e=]g^^U71PK3
 !s100 n=3I[d>RoAEmG5^koVijm0
 R8
 32
-R33
+R48
 !i10b 1
-R39
+R49
 Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\comparch project s2\MUX2_1_5bit.vhd|
 Z56 !s107 F:\comparch project s2\MUX2_1_5bit.vhd|
 !i113 1
@@ -373,9 +373,9 @@ Z58 VGc?gLLII9nCa00HS5j<YE2
 Z59 !s100 m63o21LGYGjlmSNk^AMGL1
 R8
 32
-R33
+R48
 !i10b 1
-R39
+R49
 R55
 R56
 !i113 1
@@ -503,7 +503,7 @@ R78
 R13
 R14
 Epc
-Z79 w1649714734
+Z79 w1649960581
 R4
 R5
 R0
@@ -515,9 +515,9 @@ VWl[;`coe7:=:508WIgZ^91
 !s100 ;Xc4An[cl02dbh[QV=ni[0
 R8
 32
-R33
+R9
 !i10b 1
-R39
+R10
 Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/PC.vhd|
 Z83 !s107 F:/comparch project s2/PC.vhd|
 !i113 1
@@ -529,13 +529,13 @@ R5
 DEx4 work 2 pc 0 22 Wl[;`coe7:=:508WIgZ^91
 l12
 L10
-V]_UIf@DF7L:RcYEoD8eJg3
-!s100 hb:fIW]o0TNI^KgG<O9L[0
+V]XKODS?gDkeGUX_AT1^a_0
+!s100 LUlER?h3oXL[W2f[8[9KI1
 R8
 32
-R33
+R9
 !i10b 1
-R39
+R10
 R82
 R83
 !i113 1
@@ -556,9 +556,9 @@ VLJ>E6Uo<I@C`9g2h@HDZ@0
 !s100 mK4DFN[WCzJ@D_OG5`h0>2
 R8
 32
-R33
+R48
 !i10b 1
-R39
+R49
 Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/RegisterFile.vhd|
 Z88 !s107 F:/comparch project s2/RegisterFile.vhd|
 !i113 1
@@ -576,16 +576,16 @@ VTZzd82zYIz=L988<i@jnT1
 !s100 E^>kV`OkbA[7`0f1`^bR91
 R8
 32
-R33
+R48
 !i10b 1
-R39
+R49
 R87
 R88
 !i113 1
 R13
 R14
 Eshiftleft2
-Z89 w1649704818
+Z89 w1649960646
 R4
 R5
 R0
@@ -597,9 +597,9 @@ V42UKSGl=4Pc_]^S_a5CST0
 !s100 em;Yo^dLm64Ka1ILAbIA[3
 R8
 32
-R33
+R48
 !i10b 1
-R39
+R49
 Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/comparch project s2/ShiftLeft2.vhd|
 Z93 !s107 F:/comparch project s2/ShiftLeft2.vhd|
 !i113 1
@@ -609,22 +609,22 @@ Artl
 R4
 R5
 DEx4 work 10 shiftleft2 0 22 42UKSGl=4Pc_]^S_a5CST0
-l11
+l10
 L9
-VN?LFOJfLK3AOh5WdA8VT;2
-!s100 QGT9Pe6A`7a?Q7L=;6mzJ3
+VBjTjUB9Y?8bD0PO<:GA?]1
+!s100 NLI8ALOSP:5Nd>:hD8HUF1
 R8
 32
-R33
+R48
 !i10b 1
-R39
+R49
 R92
 R93
 !i113 1
 R13
 R14
 Esignextend
-Z94 w1649704858
+Z94 w1649960637
 R4
 R5
 R0
@@ -648,10 +648,10 @@ Artl
 R4
 R5
 DEx4 work 10 signextend 0 22 ^7olTHjEf6A9i<P]n4?R10
-l11
+l10
 L9
-VX;F4mTbL0W:2UNEX`MK9F2
-!s100 =UH8U4MGD?l_nI=7c3mnM2
+V0B9GSEJ2^<XUWjM[X97P71
+!s100 b>zUWA10_l^UE@z:PHVJT3
 R8
 32
 R9
